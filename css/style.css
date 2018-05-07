@@ -1,0 +1,40 @@
+
+body {
+    margin: auto;
+    width: 500px;
+    text-align: center;
+
+}
+
+li {
+    list-style: none;
+
+}
+
+li.fields {
+    margin: 0;
+    padding: 1em 0;
+
+}
+
+.header {
+
+    cursor: pointer;
+    font-weight: bold;
+    border-bottom: 1px solid #c5c5c5;
+    background-color: #e3e3e3;
+    line-height: 2em;
+    border-top: 1px solid white;
+
+}
+
+.req {
+
+}
+
+.hide {
+
+    display: none;
+
+}
+

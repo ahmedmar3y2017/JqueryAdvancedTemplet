@@ -5,13 +5,82 @@
     <title>Title</title>
     <link rel="stylesheet" href="css/style.css">
 
-    <script src="js/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/validation.js"></script>
+
 
 </head>
 <body>
 
-<h1>Ahmed mohamedss</h1>
+
+<form id="myForm" name="myForm" >
+
+    <ul>
+        <li class="header">Who Are You ?</li>
+        <li class="fields">
+            <labe>*first_name</labe>
+            <br>
+            <input id="first_name" class="req" type="text">
+            <br>
+            <labe>middle_name</labe>
+            <br>
+            <input id="middle_name" type="text">
+            <br>
+            <labe>last_name</labe>
+            <br>
+            <input id="last_name" type="text">
+            <br>
+            <labe>*email</labe>
+            <br>
+            <input id="email" type="text">
+            <br>
+
+        </li>
+
+        <li class="header">where are you ?</li>
+
+        <li class="fields">
+            <labe>City</labe>
+            <br>
+            <input id="city" type="text">
+            <br>
+            <labe>*State</labe>
+            <br>
+            <input id="state" class="req" type="text">
+            <br>
+            <labe>Country</labe>
+            <br>
+            <input id="country" type="text">
+            <br>
+
+
+        </li>
+        <li class="header">What do you do?</li>
+
+        <li class="fields">
+            <labe>*Occupation</labe>
+            <br>
+            <input id="occupation" class="req" type="text">
+            <br>
+            <labe>Company</labe>
+            <br>
+            <input id="company" type="text">
+            <br>
+            <labe>Company Location</labe>
+            <br>
+            <input id="location" type="text">
+            <br>
+
+
+        </li>
+        <input id="button" style="align-content: center; margin-top: 15px; padding: 10px;" type="submit" value="Click Me ">
+
+
+    </ul>
+
+
+</form>
 
 
 </body>

@@ -1,8 +1,16 @@
 $(document).ready(function () {
 
 
-    $('h1').css("color", "red");
-    console.log("Done")
+    $('li.fields').filter(':nth-child(n+4)').addClass('hide');
+
+    $('ul').on('click', 'li.header', function () {
+
+        console.log("Done");
+        $(this).next().slideDown(200).siblings('li.fields').slideUp(200);
+
+
+    })
+
 
 
 });
